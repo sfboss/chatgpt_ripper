@@ -14,4 +14,8 @@
 # Usage
 - Launch the script from the root folder with "sh chatgpt_rip.sh"
 - To view the JSON that is returned in consolidated.json can be filtered with the filters in the scripts/working_output.jq file.  This has commands to filter by user, assistant, and neither of those
-[https://sfdcboss.com/how-to-save-chatgpt-conversation-history-from-chat-openai-com](https://sfdcboss.com/how-to-save-chatgpt-conversation-history-from-chat-openai-com)
+https://sfdcboss.com/how-to-save-chatgpt-conversation-history-from-chat-openai-com 
+
+## Disclaimer (please read)
+- This is not intended to be used for anything unethical except to store your conversations if you were like me and went crazy chatting with the bot, and wanted to keep all of its nuggets of knowledge tucked away safely.
+- The shell scripting and python combo of different random files is not intended to display how to architect shell scripts or python or anything, it was a mad scientist experiment with making chatGPT spit out code snippets and then tying it all together.  I will be making another post soon on the ability to take the shell scripts in here though and have chatGPT turn it into a fully refactored python app... stay tuned.
