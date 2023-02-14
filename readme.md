@@ -1,4 +1,5 @@
 # Information / How it Works
+- **Gets the conversations.json and {uuid}.json files by using your sessionId and some cURL requests**
 - scripts folder has the scripts to handle getting conversation details as the first step
 - conversation details would then give us the UUIDs we need to pull each chat down individually
 - once we get the convo Ids and pull each down into a folder "chats", we consolidate them into 
