@@ -1,4 +1,4 @@
-# Information
+# Information / How it Works
 - scripts folder has the scripts to handle getting conversation details as the first step
 - conversation details would then give us the UUIDs we need to pull each chat down individually
 - once we get the convo Ids and pull each down into a folder "chats", we consolidate them into 
@@ -9,7 +9,8 @@
 - the consolidation.json is dropped in place when the script for consolidate_json is ran
 
 # Usage
-- Launch the script from the root folder with "sh chatgpt_rip.sh"
+- Go to Developer Tools, Network tab in Chrome and refresh chat.openai.com/chat.  Right click the conversations api call and click copy > Copy as cURL and paste the value in ./config/cURL.txt
+- Launch the script from the root folder with "sh chatgpt_rip.sh" (logs/,config/,chats/,scripts/ should all be folders in root with chatgpt_rip.sh with them in root.  It will handle writing to the folders separately but making sure you are local to the chatgpt_ripper folder will prevent errors that were not worth handling in this mini project/experiment.
 - To view the JSON that is returned in consolidated.json can be filtered with the filters in the scripts/working_output.jq file.  This has commands to filter by user, assistant, and neither of those
 
 ## Resources
